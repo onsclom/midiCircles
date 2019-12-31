@@ -30,7 +30,7 @@ function windowResized() {
 
 function setup() {
   noteC=color('#000');
-  let canvas = createCanvas(windowWidth, windowHeight);
+  createCanvas(windowWidth, windowHeight);
 
   connectMIDI();
 
